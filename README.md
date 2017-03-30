@@ -1,1 +1,8 @@
-# Baidu-Institute-of-Front-End-Technology-Course
+#### 百度前端技术学院课程作业
+#### http://ife.baidu.com/
+
+##### 小薇学院： html + css
+##### 斌斌学院： js
+##### 耀耀学院： 综合实践
+##### 兴趣学院： 糯米/Echarts/商业平台
+
