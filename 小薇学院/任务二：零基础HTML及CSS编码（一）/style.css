@@ -1,35 +1,31 @@
-/* 最外层背景填充颜色*/
-.secondLayer{
-	background-position: 20% 5%;
-	background-color: #666666;
-}
-
-
 /*页边距*/
-#wrapper{
-	margin-top: 5%;
-	margin-right: 20%;
-	margin-bottom: 5%;
-	margin-left: 20%;
-
-	border-style: solid;
-    border-top-width: 0%;
-  	border-right-width: 19%;
-  	border-bottom-width: 5%;
-  	border-left-width: 19%;
+.wrapper{
+  	background-color:#555555;
 }
-
-
-
 
 /*导航效果*/
 #nav{
 	text-align: right;
-	background-color:#333333;
+	margin-top: 0px;
+	margin-right: 0.6%;
+	margin-bottom: 0%;
+	margin-left: 0%;
+
+	border-style: solid;
+    border-top-width: 0px;
+  	border-right-width: 1px;
+  	border-bottom-width: 1px;
+  	border-left-width: 1px;
+  	background-color: #111111;
+
 }
 
 /*导航中的字体颜色初始设置为白色*/
-.nav li{color: #FFFFFF}
+.nav li{
+	color: #FFFFFF;
+	list-style: none;}
+ 
+
 
 /*导航中字体格式*/
 ul#nav li{
@@ -53,5 +49,142 @@ li.mouseTouch:hover {
 	vertical-align: middle;
 }
 
+.secondLayer{
+	margin-top: 5%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+
+	border-style: solid;
+    border-top-width: 0px;
+  	border-right-width: 1px;
+  	border-bottom-width: 1px;
+  	border-left-width: 1px;
+
+  	border-bottom-color: #111111;
+
+	background-color: #CCCCCC;
+}
+
+/*文章布局样式*/
+#thirdLayer{
+	margin-top: 2.0%;
+	margin-right: 2.0%;
+	margin-bottom: 0%;
+	margin-left: 2%;
+
+	border-style: solid;
+	border-color: #999999;
+    border-top-width: 0.05px;
+  	border-right-width: 3px;
+  	border-bottom-width: 3px;
+  	border-left-width: 0px;
+
+  	font-size: 12px;
+
+	background-color: #FFFFFF;
+} 
+
+#thirdLayerTwo{
+	margin-top: 2.0%;
+	margin-right: 0.5%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+
+	border-style: solid;
+	border-bottom-color: #111111;
+
+    border-top-width: 1px;
+  	border-right-width: 0.5px;
+  	border-bottom-width: 0.05px;
+  	
+  	border-left-width: 1px;
+  	
+  	background-color: #111111;
+}
+
+.thirdLayerTwo li{
+	color: #FFFFFF;
+	list-style: none;
+	font-size: 18px;
+	text-align: center;
+}
+
+#liStyleTwo{
+	list-style: none;
+}
 
 
+.gridtable {  
+
+	margin-bottom: 5%;
+	margin-left: 1%;
+	margin-top: 0px;
+
+    font-family: verdana,arial,sans-serif;  
+    font-size:11px;  
+    color:#333333;  
+
+    width: 80%;
+    height: 50%;
+    border-width: 1px;  
+    border-color: #666666;  
+
+    border-top-width: 1%;
+
+    vertical-align: top;
+    border-collapse: collapse;  
+
+	text-align: left; 
+}  
+
+.gridtable th {  
+    border-width: 1px;  
+    padding: 0.5px;  
+    border-style: solid;  
+    border-color: #666666;  
+    background-color: #000000;  
+
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.gridtableTwo{  
+    border-width: 1px;  
+    padding: 1px;  
+    border-style: solid;  
+    border-color: #666666;  
+    background-color: #CCCCCC;  
+    text-align: left;
+}
+
+.captionOne{ 
+	text-align: left; 
+	caption-side : top;
+}
+
+.borderStyleOne
+{
+	margin-left: 2%;	
+	border-left: 4px solid #CCCCCC;
+}
+
+/*底部提交按钮样式*/
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px 12px 12px 12px;
+
+    width: 97%;
+
+    margin-top: 2%;
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+    margin-right: 1.5%
+}
