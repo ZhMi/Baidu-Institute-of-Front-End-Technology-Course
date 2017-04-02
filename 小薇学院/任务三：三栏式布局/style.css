@@ -1,0 +1,28 @@
+#wrap{ 
+  width: 100%;
+  height: 100px; 
+  background-color: #CCCCCC;
+  float: left;
+}  
+
+#wrap #center{ 
+  margin: 0 210px;
+  height: 100px;
+  background-color: #ffe6b8; 
+}  
+#left_margin, #right_margin{ 
+  float: left;
+  width: 120px;
+  height: 100px;
+  background-color: orange;
+}  
+#left_margin{
+
+
+  margin-left: -100%;
+  background-color: red
+}  
+
+#right_margin{
+  margin-left: -200px;
+}
